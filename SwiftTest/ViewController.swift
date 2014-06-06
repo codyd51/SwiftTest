@@ -11,10 +11,9 @@ import UIKit
 var anger: UILabel = UILabel()
 
 class ViewController: UIViewController {
-                            
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+
 		anger.text = "Swift is weird!"
 		anger.textAlignment = .Center
 		anger.textColor = UIColor.blackColor()
@@ -22,12 +21,5 @@ class ViewController: UIViewController {
 		self.view.addSubview(anger)
 		//self.addSubview(anger)
 	}
-
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
-	}
-
-
 }
 
